@@ -30,4 +30,27 @@ export default class App extends React.Component {
   }
 }
 
-
+const styles = StyleSheet.create({
+  mainContainer: {
+    flex: 1,
+    flexDirection: 'row',
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  }, 
+  Container: {
+    flex: 1,
+    flexDirection: 'column',
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center'
+  },
+  subContainer:{
+    flex: 1,
+    flexDirection: 'row',
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center'
+  }
+  
+});
