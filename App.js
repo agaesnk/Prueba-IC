@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View } from 'react-native';
 import SubredditList from './src/components/SubredditList';
 
 export default class App extends React.Component {
@@ -8,7 +8,6 @@ export default class App extends React.Component {
     return (
       <View>
         <SubredditList/>
-        <Text>hello</Text>
       </View>
     );   
   }
